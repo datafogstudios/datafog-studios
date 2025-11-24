@@ -1,0 +1,450 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DataFog Studios - Master programming with interactive tutorials, code examples, and real-world projects.">
+    <meta name="keywords" content="programming tutorials, coding lessons, web development, Python, JavaScript, Java, C++">
+    <meta name="author" content="Hassan Mohamed">
+    <title>DataFog Studios - Master Programming & Build Amazing Projects</title>
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <nav>
+        <div class="container">
+            <div class="logo">⚡ DataFog Studios</div>
+            <button class="mobile-toggle" onclick="toggleMenu()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#learning">Learn</a></li>
+                <li><a href="#examples">Examples</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="https://ko-fi.com/datafogstudios" target="_blank" class="support-link">☕ Support</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Master Programming<br>Build The Future</h1>
+            <p class="tagline">Interactive tutorials • Real projects • Expert guidance</p>
+            <div class="cta-buttons">
+                <a href="#learning" class="btn btn-primary">Start Learning Free</a>
+                <a href="https://ko-fi.com/datafogstudios" target="_blank" class="btn btn-secondary">☕ Support This Project</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="carbon-ad-wrapper">
+            <div class="ad-placeholder">
+                <p>📢 Carbon Ad Space #1</p>
+                <p style="font-size: 0.9rem; margin-top: 0.5rem;">Apply at: <a href="https://www.carbonads.net/apply" target="_blank" style="color: var(--primary);">carbonads.net/apply</a></p>
+            </div>
+        </div>
+    </div>
+
+    <section id="learning">
+        <div class="container">
+            <div class="section-header">
+                <h2>Comprehensive Learning Paths</h2>
+                <p>Master programming from basics to advanced with our structured curriculum</p>
+            </div>
+
+            <div class="learning-grid">
+                <div class="language-card" onclick="window.location.href='lessons/python/01-basics/01-variables.html'">
+                    <div class="icon">🐍</div>
+                    <h3>Python Development</h3>
+                    <ul class="lesson-list">
+                        <li class="lesson-item">Variables & Data Types</li>
+                        <li class="lesson-item">Control Flow & Loops</li>
+                        <li class="lesson-item">Functions & Modules</li>
+                        <li class="lesson-item">OOP Concepts</li>
+                        <li class="lesson-item">File Handling & I/O</li>
+                        <li class="lesson-item">Web Scraping</li>
+                        <li class="lesson-item">Django Framework</li>
+                        <li class="lesson-item">Data Analysis with Pandas</li>
+                    </ul>
+                    <div class="start-course">
+                        <span>Start Course →</span>
+                    </div>
+                </div>
+
+                <div class="language-card">
+                    <div class="icon">⚡</div>
+                    <h3>JavaScript Mastery</h3>
+                    <ul class="lesson-list">
+                        <li class="lesson-item">ES6+ Fundamentals</li>
+                        <li class="lesson-item">DOM Manipulation</li>
+                        <li class="lesson-item">Async Programming</li>
+                        <li class="lesson-item">Promises & Async/Await</li>
+                        <li class="lesson-item">React.js Development</li>
+                        <li class="lesson-item">Node.js & Express</li>
+                        <li class="lesson-item">RESTful APIs</li>
+                        <li class="lesson-item">Modern Build Tools</li>
+                    </ul>
+                    <div class="start-course">
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+
+                <div class="language-card">
+                    <div class="icon">☕</div>
+                    <h3>Java Programming</h3>
+                    <ul class="lesson-list">
+                        <li class="lesson-item">Core Java Syntax</li>
+                        <li class="lesson-item">OOP Principles</li>
+                        <li class="lesson-item">Collections Framework</li>
+                        <li class="lesson-item">Exception Handling</li>
+                        <li class="lesson-item">Multithreading</li>
+                        <li class="lesson-item">JDBC & Databases</li>
+                        <li class="lesson-item">Spring Boot</li>
+                        <li class="lesson-item">Microservices</li>
+                    </ul>
+                    <div class="start-course">
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+
+                <div class="language-card">
+                    <div class="icon">⚙️</div>
+                    <h3>C++ Development</h3>
+                    <ul class="lesson-list">
+                        <li class="lesson-item">Pointers & Memory</li>
+                        <li class="lesson-item">STL Containers</li>
+                        <li class="lesson-item">Templates & Generics</li>
+                        <li class="lesson-item">Object-Oriented C++</li>
+                        <li class="lesson-item">Smart Pointers</li>
+                        <li class="lesson-item">Multithreading</li>
+                        <li class="lesson-item">Game Development</li>
+                        <li class="lesson-item">System Programming</li>
+                    </ul>
+                    <div class="start-course">
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+
+                <div class="language-card">
+                    <div class="icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <ul class="lesson-list">
+                        <li class="lesson-item">HTML5 Semantic Tags</li>
+                        <li class="lesson-item">CSS3 & Animations</li>
+                        <li class="lesson-item">Responsive Design</li>
+                        <li class="lesson-item">Flexbox & Grid</li>
+                        <li class="lesson-item">JavaScript Framework</li>
+                        <li class="lesson-item">Backend Integration</li>
+                        <li class="lesson-item">PWA Development</li>
+                        <li class="lesson-item">Performance Optimization</li>
+                    </ul>
+                    <div class="start-course">
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+
+                <div class="language-card">
+                    <div class="icon">📊</div>
+                    <h3>Data Science & ML</h3>
+                    <ul class="lesson-list">
+                        <li class="lesson-item">NumPy Fundamentals</li>
+                        <li class="lesson-item">Pandas Data Analysis</li>
+                        <li class="lesson-item">Data Visualization</li>
+                        <li class="lesson-item">Statistical Analysis</li>
+                        <li class="lesson-item">Machine Learning Basics</li>
+                        <li class="lesson-item">Deep Learning & Neural Networks</li>
+                        <li class="lesson-item">Natural Language Processing</li>
+                        <li class="lesson-item">Model Deployment</li>
+                    </ul>
+                    <div class="start-course">
+                        <span>Coming Soon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="support-section">
+        <div class="container">
+            <div class="support-box">
+                <h2>☕ Enjoying DataFog Studios?</h2>
+                <p>This platform is 100% free and always will be. If you find it helpful, consider buying me a coffee to support development!</p>
+                <div class="support-buttons">
+                    <a href="https://ko-fi.com/datafogstudios" target="_blank" class="btn btn-kofi">
+                        <span class="kofi-icon">☕</span> Support on Ko-fi
+                    </a>
+                    <a href="https://github.com/datafogstudios/datafog-studios" target="_blank" class="btn btn-secondary">
+                        ⭐ Star on GitHub
+                    </a>
+                </div>
+                <p class="support-note">Your support helps maintain the servers, create new content, and keep everything free! 🚀</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="carbon-ad-wrapper">
+            <div class="ad-placeholder">
+                <p>📢 Carbon Ad Space #2</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="examples">
+        <div class="container">
+            <div class="section-header">
+                <h2>Interactive Code Examples</h2>
+                <p>Learn by doing with real, practical code samples</p>
+            </div>
+
+            <div class="code-examples">
+                <div class="code-tabs">
+                    <div class="code-tab active" onclick="showCode('python')">Python</div>
+                    <div class="code-tab" onclick="showCode('javascript')">JavaScript</div>
+                    <div class="code-tab" onclick="showCode('java')">Java</div>
+                    <div class="code-tab" onclick="showCode('cpp')">C++</div>
+                </div>
+
+                <div class="code-content active" id="code-python">
+                    <h3>Python: Web Scraper Example</h3>
+                    <pre><code><span class="comment"># Import required libraries</span>
+<span class="keyword">import</span> requests
+<span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup
+
+<span class="comment"># Define scraper function</span>
+<span class="keyword">def</span> <span class="function">scrape_website</span>(url):
+    <span class="string">"""Fetch and parse website content"""</span>
+    response = requests.<span class="function">get</span>(url)
+    soup = BeautifulSoup(response.content, <span class="string">'html.parser'</span>)
+    
+    <span class="comment"># Extract headings</span>
+    headings = soup.<span class="function">find_all</span>(<span class="string">'h2'</span>)
+    
+    <span class="keyword">for</span> heading <span class="keyword">in</span> headings:
+        <span class="function">print</span>(heading.text.strip())
+    
+    <span class="keyword">return</span> soup</code></pre>
+                </div>
+
+                <div class="code-content" id="code-javascript">
+                    <h3>JavaScript: Async API Fetcher</h3>
+                    <pre><code><span class="comment">// Fetch data from API</span>
+<span class="keyword">async</span> <span class="keyword">function</span> <span class="function">fetchUserData</span>(userId) {
+  <span class="keyword">try</span> {
+    <span class="keyword">const</span> response = <span class="keyword">await</span> <span class="function">fetch</span>(<span class="string">`https://api.example.com/users/${userId}`</span>);
+    <span class="keyword">const</span> data = <span class="keyword">await</span> response.<span class="function">json</span>();
+    
+    console.<span class="function">log</span>(<span class="string">'User:'</span>, data.name);
+    <span class="keyword">return</span> data;
+  } <span class="keyword">catch</span> (error) {
+    console.<span class="function">error</span>(<span class="string">'Error:'</span>, error);
+  }
+}</code></pre>
+                </div>
+
+                <div class="code-content" id="code-java">
+                    <h3>Java: REST API Controller</h3>
+                    <pre><code><span class="keyword">import</span> org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping(<span class="string">"/api/users"</span>)
+<span class="keyword">public class</span> <span class="function">UserController</span> {
+    
+    @GetMapping
+    <span class="keyword">public</span> List&lt;User&gt; <span class="function">getAllUsers</span>() {
+        <span class="keyword">return</span> userService.<span class="function">findAll</span>();
+    }
+}</code></pre>
+                </div>
+
+                <div class="code-content" id="code-cpp">
+                    <h3>C++: Smart Pointer Example</h3>
+                    <pre><code><span class="keyword">#include</span> &lt;iostream&gt;
+<span class="keyword">#include</span> &lt;memory&gt;
+
+<span class="keyword">int</span> <span class="function">main</span>() {
+    <span class="keyword">auto</span> ptr = std::make_unique&lt;<span class="keyword">int</span>&gt;(42);
+    std::cout &lt;&lt; *ptr;
+    <span class="keyword">return</span> 0;
+}</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <p>Real-world applications built with modern technologies</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🤖</div>
+                    <div class="project-content">
+                        <h3>AI Chatbot Platform</h3>
+                        <p>Advanced conversational AI with natural language processing and sentiment analysis.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">NLP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Real-time data visualization with interactive charts and KPI tracking.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">🎮</div>
+                    <div class="project-content">
+                        <h3>Multiplayer Game Engine</h3>
+                        <p>Cross-platform 3D game engine with real-time multiplayer capabilities.</p>
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">OpenGL</span>
+                            <span class="tag">WebGL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">🛒</div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack shopping solution with payment processing and inventory management.</p>
+                        <div class="project-tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">🔐</div>
+                    <div class="project-content">
+                        <h3>Security Audit Tool</h3>
+                        <p>Automated security scanning and vulnerability assessment system.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Security</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">📱</div>
+                    <div class="project-content">
+                        <h3>Fitness Tracking App</h3>
+                        <p>Mobile fitness companion with workout tracking and AI recommendations.</p>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">ML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="carbon-ad-wrapper">
+            <div class="ad-placeholder">
+                <p>📢 Carbon Ad Space #3</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About DataFog Studios</h2>
+                <p>Empowering developers worldwide with quality education</p>
+            </div>
+            <div class="about-content">
+                <p>DataFog Studios is a premier programming education platform dedicated to transforming aspiring developers into skilled professionals.</p>
+                <p>Our mission is to bridge the gap between theoretical knowledge and practical application through interactive tutorials, real-world projects, and cutting-edge curriculum.</p>
+                <p>This platform is completely free and maintained through community support. If you find value in our content, please consider supporting us!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DataFog Studios</h3>
+                    <p>Professional programming education platform helping developers master modern technologies.</p>
+                    <div style="margin-top: 1.5rem;">
+                        <a href="https://ko-fi.com/datafogstudios" target="_blank" class="btn-kofi-small">☕ Buy Me a Coffee</a>
+                    </div>
+                    <p style="margin-top: 1.5rem;">© 2024 DataFog Studios. All Rights Reserved.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Learning Paths</h3>
+                    <ul>
+                        <li><a href="#learning">Python Development</a></li>
+                        <li><a href="#learning">JavaScript Mastery</a></li>
+                        <li><a href="#learning">Java Programming</a></li>
+                        <li><a href="#learning">Web Development</a></li>
+                        <li><a href="#learning">Data Science</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#examples">Code Examples</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="https://github.com/datafogstudios/datafog-studios">GitHub</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Connect & Support</h3>
+                    <ul>
+                        <li><a href="mailto:contact@datafogstudios.com">Email Us</a></li>
+                        <li><a href="https://github.com/datafogstudios">GitHub Profile</a></li>
+                        <li><a href="https://ko-fi.com/datafogstudios" target="_blank">☕ Support on Ko-fi</a></li>
+                        <li><a href="LICENSE">License (MIT)</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Built with ❤️ by Hassan Mohamed | <a href="https://github.com/datafogstudios/datafog-studios">View on GitHub</a></p>
+                <p style="margin-top: 1rem; font-size: 0.9rem;">DataFog Studios™. All content protected by copyright law.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        kofiWidgetOverlay.draw('datafogstudios', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Support Me',
+            'floating-chat.donateButton.background-color': '#00b9fe',
+            'floating-chat.donateButton.text-color': '#fff'
+        });
+    </script>
+</body>
+</html>
