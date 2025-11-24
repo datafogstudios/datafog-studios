@@ -76,13 +76,16 @@
       <div class="donate-body">
         <h3>Donate with Bitcoin</h3>
         <p>Every satoshi helps keep all courses <strong>100% free forever</strong>.</p>
+       
         <div class="address-box">
           <div class="address-display" id="btcAddress">
             1FaAY9ySDdebQRXQVC45QuGrMZWW5XRURk
           </div>
           <button class="copy-btn" onclick="copyAddress()" aria-label="Copy Bitcoin address">Copy Address</button>
         </div>
+
         <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=bitcoin:1FaAY9ySDdebQRXQVC45QuGrMZWW5XRURk" alt="Bitcoin QR Code" style="margin-top:20px;border-radius:12px;">
+
         <div class="copy-notice" id="copyNotice">Copied to clipboard!</div>
         <p class="thanks">Thank you for believing in free education</p>
       </div>
@@ -117,15 +120,9 @@ function copyAddress() {
 </script>
 
 <footer>
-  <div class="container" style="text-align:center;padding:3rem 0;background:#0d6efd;color:white">
-    <p style="font-size:1.55rem;font-weight:800;margin:0;letter-spacing:0.5px">
-      © 2025 DataFog Studios™
-    </p>
-    <p style="margin:1rem 0 0;font-size:1.15rem">
-      <a href="privacy.html" style="color:white;margin:0 1rem;text-decoration:none;font-weight:600">Privacy Policy</a>
-      <a href="license.html" style="color:white;margin:0 1rem;text-decoration:none;font-weight:600">MIT License</a>
-      <a href="contact.html" style="color:white;margin:0 1rem;text-decoration:none;font-weight:600">Contact</a>
-    </p>
+  <div class="container">
+    <p>© 2025 DataFog Studios • Made with passion by Hassan Mohamed</p>
+    <p><a href="privacy.html">Privacy Policy</a> • <a href="license.html">MIT License</a> • <a href="contact.html">Contact</a></p>
   </div>
 </footer>
 
@@ -139,5 +136,3 @@ function copyAddress() {
 </script>
 </body>
 </html>
-
-

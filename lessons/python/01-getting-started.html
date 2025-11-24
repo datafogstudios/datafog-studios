@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>01 • Getting Started with Python • Python Academy</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#f8f9fa;font-family:'Inter',sans-serif;color:#1a1a1a;line-height:1.9}
+.container{max-width:1280px;margin:0 auto;padding:0 40px}
+.hero{background:#0d6efd;color:white;padding:5rem 0 3rem;text-align:center;position:relative}
+.hero h1{font-size:2.9rem;font-weight:800;margin:0;letter-spacing:-0.5px}
+.top-right{position:absolute;top:24px;right:40px}
+.top-right a{color:white;font-weight:600;text-decoration:none;font-size:1.15rem}
+.top-right a:hover{text-decoration:underline}
+.section{padding:6rem 0}
+.card{background:white;border-radius:24px;padding:5rem 6rem;margin:2rem 0;box-shadow:0 20px 55px rgba(0,0,0,0.11);transition:transform .3s}
+.card:hover{transform:translateY(-10px)}
+h2{color:#0d6efd;font-size:2.4rem;font-weight:800;margin:0 0 2.5rem}
+h3{font-size:1.9rem;color:#0d6efd;font-weight:700;margin:4.5rem 0 1.5rem}
+pre{background:#0d1117;color:#c9d1d9;padding:2.5rem;border-radius:18px;overflow-x:auto;font-size:1.15rem;line-height:1.7;font-family:ui-monospace,monospace}
+.run-btn{background:#0d6efd;color:white;border:none;padding:1.3rem 3.2rem;border-radius:50px;font-size:1.3rem;font-weight:700;cursor:pointer;box-shadow:0 12px 30px rgba(13,110,253,0.35);transition:all .3s;margin:2.5rem 0}
+.run-btn:hover{background:#0b5ed7;transform:scale(1.06)}
+.output{background:#000;color:#00ff9d;padding:2.2rem;border-radius:14px;margin:2.5rem 0;font-size:1.1rem;font-family:ui-monospace}
+.exercise{background:linear-gradient(135deg,#fff4e6,#ffe0b3);border-left:10px solid #ff6b35;padding:4rem;border-radius:20px;margin:6rem 0;box-shadow:0 15px 45px rgba(255,107,53,0.22)}
+.exercise h3{color:#ff6b35;font-size:2.4rem;font-weight:800;margin:0 0 1.5rem}
+.next-btn{background:#ff6b35;color:white;padding:1.5rem 4rem;border-radius:50px;font-size:1.5rem;font-weight:800;text-decoration:none;display:inline-block;margin-top:5rem;transition:all .3s}
+.next-btn:hover{background:#e55a2b;transform:scale(1.05)}
+</style>
+</head><body>
+
+<div class="hero">
+  <div class="container">
+    <a href="../../index.html" class="top-right">Back to Home</a>
+    <h1>01 • Getting Started with Python</h1>
+  </div>
+</div>
+
+<div class="container" style="background:#0d6efd;color:white;padding:2.8rem 3.5rem;border-radius:20px;margin:3rem auto;max-width:960px;text-align:center;box-shadow:0 12px 35px rgba(13,110,253,0.3)">
+  <p style="margin:0 0 1.2rem;font-size:1.25rem;opacity:0.95;font-weight:500">By the end of this lesson you will be able to:</p>
+  <strong style="font-size:1.7rem;font-weight:800;line-height:1.6">
+    • Install Python on your computer<br>
+    • Open the terminal and run Python code<br>
+    • Write and execute your first interactive program<br>
+    • Feel confident that you’ve officially started your Python journey
+  </strong>
+</div>
+
+<div class="section"><div class="container">
+
+<div class="card">
+
+<h2>1. Install Python (2 minutes)</h2>
+<p>Go to <a href="https://python.org/downloads" target="_blank" style="color:#ff6b35;font-weight:700">python.org/downloads</a></p>
+<p>Click the big yellow button → Run the installer → <strong>CHECK “Add Python to PATH”</strong> → Install Now</p>
+<p>That’s it. Python is now installed.</p>
+
+<h2>2. Open Terminal / Command Prompt</h2>
+<p>Press <kbd>Win</kbd> + <kbd>R</kbd> → type <code>cmd</code> → press Enter</p>
+<p>Type this and press Enter:</p>
+<pre><code>python --version</code></pre>
+<p>You should see something like: <code>Python 3.12.7</code></p>
+
+<h2>3. Your First Python Program</h2>
+<p>Copy and paste this code into your terminal:</p>
+<pre><code>name = input("What's your name, future coder? ")
+age = input("How old are you? ")
+
+print(f"\nWelcome {name}!")
+print(f"At {age} years old, you're already learning Python — legendary!")
+print("You're now part of DataFog Studios Python Academy")
+print("Get ready to build amazing things!")</code></pre>
+
+<button class="run-btn" onclick="alert('Paste the code above into your terminal and press Enter!')">Run Your First Program</button>
+
+<div class="output">
+What's your name, future coder? Alex
+How old are you? 22
+
+Welcome Alex!
+At 22 years old, you're already learning Python — legendary!
+You're now part of DataFog Studios Python Academy
+Get ready to build amazing things!
+</div>
+
+<div class="exercise">
+<h3>Exercise: Make It Your Own</h3>
+<p>Modify the program to also ask for the user's favorite color and print:</p>
+<p style="background:white;padding:2rem;border-radius:14px;font-size:1.4rem;margin:2rem 0">
+"Alex, 22 years old, favorite color: Blue — welcome to the coding world!"
+</p>
+<p>Try it now!</p>
+</div>
+
+<a href="02-variables.html" class="next-btn">Next → 02 Variables & Data Types</a>
+
+</div>
+</div></div>
+
+<div style="background:#0d6efd;color:white;text-align:center;padding:3rem 0;margin-top:9rem;font-family:'Inter',sans-serif">
+  <p style="margin:0;font-size:1.4rem;font-weight:700;letter-spacing:0.6px">© 2025 DataFog Studios™</p>
+  <p style="margin:0.9rem 0 0;font-size:1.05rem">
+    <a href="../../privacy.html" style="color:white;text-decoration:none;margin:0 1.2rem;font-weight:500">Privacy Policy</a>
+    <a href="../../license.html" style="color:white;text-decoration:none;margin:0 1.2rem;font-weight:500">MIT License</a>
+    <a href="../../contact.html" style="color:white;text-decoration:none;margin:0 1.2rem;font-weight:500">Contact</a>
+  </p>
+</div>
+
+<div style="text-align:center;margin:6rem 0 4rem">
+  <a href="../../index.html" style="color:#666;font-weight:500;margin:0 2rem;text-decoration:none;font-size:1.15rem">Back to Home</a>
+  <a href="index.html" style="color:#0d6efd;font-weight:700;margin:0 2.5rem;text-decoration:none;font-size:1.3rem">All Lessons</a>
+  <a href="02-variables.html" style="color:#666;font-weight:500;margin:0 2rem;text-decoration:none;font-size:1.15rem">Next Lesson →</a>
+</div>
+
+</body></html>

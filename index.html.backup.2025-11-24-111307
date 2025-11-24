@@ -7,11 +7,13 @@
   <link rel="stylesheet" href="css/tradingpedia-style.css">
 </head>
 <body>
+
 <div class="top-bar">
   <div class="container">
     Join thousands of coders learning Python, JavaScript & Web Dev — 100% FREE!
   </div>
 </div>
+
 <header>
   <div class="container">
     <nav>
@@ -25,6 +27,7 @@
     </nav>
   </div>
 </header>
+
 <div class="category-bar">
   <div class="container">
     <a href="lessons/python/index.html">Python Academy</a>
@@ -35,6 +38,7 @@
     <a href="#">Cybersecurity</a>
   </div>
 </div>
+
 <section class="hero-section">
   <div class="container">
     <h1>Learn Programming at DataFog Studios</h1>
@@ -42,6 +46,7 @@
     <a href="lessons/python/index.html" class="big-cta">Start Learning Free</a>
   </div>
 </section>
+
 <div class="features-grid">
   <div class="feature-card">
     <img src="https://img.icons8.com/color/120/python.png" alt="Python"><h3>Python Programming</h3><p>Beginner to Pro</p>
@@ -69,20 +74,21 @@
   </div>
 </div>
 
-<section class="donate-section" id="donate">
+<section class="donate-section">
   <div class="container">
     <div class="donate-card">
       <div class="donate-header">Support DataFog Studios</div>
       <div class="donate-body">
         <h3>Donate with Bitcoin</h3>
         <p>Every satoshi helps keep all courses <strong>100% free forever</strong>.</p>
+        
         <div class="address-box">
           <div class="address-display" id="btcAddress">
-            1FaAY9ySDdebQRXQVC45QuGrMZWW5XRURk
+            1FaY9ySdDebqQRXQVC45QuGrMZW5XRUk
           </div>
-          <button class="copy-btn" onclick="copyAddress()" aria-label="Copy Bitcoin address">Copy Address</button>
+          <button class="copy-btn" onclick="copyAddress()">Copy Address</button>
         </div>
-        <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=bitcoin:1FaAY9ySDdebQRXQVC45QuGrMZWW5XRURk" alt="Bitcoin QR Code" style="margin-top:20px;border-radius:12px;">
+        
         <div class="copy-notice" id="copyNotice">Copied to clipboard!</div>
         <p class="thanks">Thank you for believing in free education</p>
       </div>
@@ -101,43 +107,48 @@
 .address-display{font-family:monospace;font-size:1.25rem;color:#0d6efd;word-break:break-all;padding:0.5rem 0;flex:1;min-width:260px;text-align:center}
 .copy-btn{background:#0d6efd;color:white;border:none;padding:0.9rem 2.2rem;border-radius:50px;font-weight:700;cursor:pointer;transition:all .3s}
 .copy-btn:hover{background:#0d6efddd}
-.copy-notice{display:none;background:#10b981;color:white;padding:1rem 2rem;border-radius:10px;margin-top:1.5rem;font-weight:700;font-size:1.1rem;animation:popIn .4s ease-out}
-@keyframes popIn{0%{transform:scale(0.8);opacity:0}100%{transform:scale(1);opacity:1}}
+.copy-notice{display:none;background:#10b981;color:white;padding:1rem 2rem;border-radius:10px;margin-top:1.5rem;font-weight:700;font-size:1.1rem}
 .thanks{font-style:italic;color:#666;margin-top:2rem;font-size:1.1rem}
 @media(max-width:540px){.address-box{flex-direction:column}.copy-btn{width:80%}}
 </style>
 
 <script>
 function copyAddress() {
-  navigator.clipboard.writeText('1FaAY9ySDdebQRXQVC45QuGrMZWW5XRURk');
+  navigator.clipboard.writeText('1FaY9ySdDebqQRXQVC45QuGrMZW5XRUk');
   const n = document.getElementById('copyNotice');
   n.style.display = 'block';
   setTimeout(() => n.style.display = 'none', 2500);
 }
 </script>
 
+  
+  
+</div>
+  
+  
+</div>
+  
+  
+</div>
+
 <footer>
-  <div class="container" style="text-align:center;padding:3rem 0;background:#0d6efd;color:white">
-    <p style="font-size:1.55rem;font-weight:800;margin:0;letter-spacing:0.5px">
-      © 2025 DataFog Studios™
-    </p>
-    <p style="margin:1rem 0 0;font-size:1.15rem">
-      <a href="privacy.html" style="color:white;margin:0 1rem;text-decoration:none;font-weight:600">Privacy Policy</a>
-      <a href="license.html" style="color:white;margin:0 1rem;text-decoration:none;font-weight:600">MIT License</a>
-      <a href="contact.html" style="color:white;margin:0 1rem;text-decoration:none;font-weight:600">Contact</a>
-    </p>
+  <div class="container">
+    <p>© 2025 DataFog Studios • Made with passion by Hassan Mohamed</p>
+    <p><a href="privacy.html">Privacy Policy</a> • <a href="license.html">MIT License</a> • <a href="contact.html">Contact</a></p>
   </div>
 </footer>
 
 <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
 <script>
-  kofiWidgetOverlay.draw('datafogstudios', { 
-    'type': 'floating-chat', 
-    'floating-chat.donateButton.text': 'Support', 
-    'floating-chat.donateButton.background-color': '#ff6b35' 
-  });
+  kofiWidgetOverlay.draw('datafogstudios', { 'type': 'floating-chat', 'floating-chat.donateButton.text': 'Support', 'floating-chat.donateButton.background-color': '#ff6b35' });
 </script>
 </body>
 </html>
+
+
+
+
+
+
 
 
